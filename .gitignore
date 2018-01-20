@@ -103,3 +103,6 @@ CTestTestfile.cmake
 
 App/TAppCodingInterview/
 Lib/TLibCodingInterview/
+.idea/
+.idea
+cmake-build-debug
