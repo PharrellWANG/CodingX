@@ -101,17 +101,5 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 
-.gitignore
 App/TAppCodingInterview/
 Lib/TLibCodingInterview/
-cmake-build-debug/CMakeFiles/001_StringToInt.dir/App/TAppExtendedCollection/StringToInt/
-cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/tmp/
-cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/tmp/
-cmake-build-debug/CMakeFiles/CMakeTmp/
-cmake-build-debug/CMakeFiles/IntegerBoundary.dir/App/
-cmake-build-debug/CMakeFiles/X.dir/App/
-cmake-build-debug/CMakeFiles/XStringToInt.dir/App/TAppPlayground/StringToInt/
-cmake-build-debug/CMakeFiles/XTmp.dir/App/TAppPlayground/Tmp/
-cmake-build-debug/CMakeFiles/X_001_Playground.dir/App/TAppPlayground/AppStringToInt/
-cmake-build-debug/CMakeFiles/X_001_Playground.dir/App/TAppPlayground/SubAppStringToInt/
-cmake-build-debug/CMakeFiles/ZIntegerBoundary.dir/App/

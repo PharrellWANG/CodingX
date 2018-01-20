@@ -22,6 +22,9 @@ int main() {
   std::cout << "\n\n'1' - '0' = " << ('1' - '0');
   std::cout << "\n\n'+' - '+' = " << ('+' - '+');
   std::cout << "\n\n'-' - '-' = " << ('-' - '-');
+  std::cout << "\n\n' ' - '0' = " << (' ' - '0') << std::endl;
+
+  std::cout << 0001 - 00002 << std::endl;
 
   // [static_assert](http://en.cppreference.com/w/cpp/language/static_assert)
   static_assert(('-' - '-') == 0, "('-' - '-') should be equal to 0, isn't it?");

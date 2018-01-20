@@ -10,13 +10,15 @@
 #include <string>
 
 class StringToInt {
+//Private members and methods are only accessible via methods in the class definition
+//Another option is 'protected', which are members and methods only accessible in the class definition or by classes who extend this class
+private:
+  std::string TheString;
+//Public members and methods are accessible to anyone who creates an instance of the class
 public:
-  int StringObjectToIntWithoutLib(const std::string& TheStringToConvert){
-  };
+  explicit StringToInt(const std::string& TheStringToConvert);
 
-  int CharArrayToIntWithoutLib(const char* TheCharArrayToConvert){
-
-  };
+  const bool CheckContainsOnlyDigitsAndSign();
 
 };
 

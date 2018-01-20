@@ -9,13 +9,13 @@ set(001_SOURCE_FILES
 
   Lib/TLibExtendedCollection/StringToInt.cpp
   Lib/TLibExtendedCollection/StringToInt.h)
-add_executable(001_StringToInt ${001_SOURCE_FILES})
+add_executable(Ext_001_StringToInt ${001_SOURCE_FILES})
 
 set(002_SOURCE_FILES
   App/TAppPlayground/NatureOfStringAndChar/main.cpp
   )
-add_executable(XStringToInt ${002_SOURCE_FILES})
+add_executable(Play_001_NatureOfStringAndChar ${002_SOURCE_FILES})
 
 set(003_source_files
   App/TAppPlayground/IntegerBoundary/main.cpp)
-add_executable(XIntegerBoundary ${003_source_files})
+add_executable(Play_002_XIntegerBoundary ${003_source_files})
