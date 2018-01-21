@@ -57,4 +57,5 @@ void last_fn() {}
 ## Useful Links
 * [Homepage of the creator of C++: Bjarne Stroustrup](http://www.stroustrup.com)
 * [Cpp Core Guidelines (recommended by Bjarne Stroustrup)](https://github.com/isocpp/CppCoreGuidelines)
-
+* [Bjarne Stroustrup's C++ Glossary](http://www.stroustrup.com/glossary.html)
+* [About exception](http://www.stroustrup.com/bs_faq2.html#exceptions-why)
