@@ -46,8 +46,22 @@ int main(){
 
   int result;
 
-  std::string myStringA = "-2147483648";
-  std::string myStringB = "0";
+  std::cout << "Please enter the 1st operand:\n";
+
+  std::string myStringA;
+  getline(std::cin, myStringA);
+
+  std::cout << "You entered " << myStringA << '\n';
+
+  std::cout << "Please enter the 2nd operand:\n";
+
+  std::string myStringB;
+  getline(std::cin, myStringB);
+
+  std::cout << "You entered " << myStringB << '\n';
+
+//  std::string myStringA = "-2147483648";
+//  std::string myStringB = "0";
 
   StringToInt str2intA(myStringA);
   StringToInt str2intB(myStringB);
@@ -98,7 +112,7 @@ int main(){
     }
   }
 
-  std::cout << "Result: " << result << std::endl;
+  std::cout << "Result of (A - B): " << result << std::endl;
 
   return 0;
 }
