@@ -56,5 +56,5 @@ void last_fn() {}
 ```
 ## Useful Links
 * [Homepage of the creator of C++: Bjarne Stroustrup](http://www.stroustrup.com)
-* [Cpp Core Guidelines (recommended by Bjarne Stroustrup)](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rp-direct)
+* [Cpp Core Guidelines (recommended by Bjarne Stroustrup)](https://github.com/isocpp/CppCoreGuidelines)
 
