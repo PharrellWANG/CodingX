@@ -14,7 +14,7 @@ The questions, which are not from the official examples
 in the book of **Coding Interview** but with some value, are
 included in this section. 
 
-## 2.0 F.A.Q {#faq-section}
+## 2.0 F.A.Q ## {#faq-section}
 ### 2.1 Why the absolute value of the max negative integer -2147483648 is still -2147483648
 
 
