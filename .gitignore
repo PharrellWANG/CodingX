@@ -101,8 +101,6 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 
-App/TAppCodingInterview/
-Lib/TLibCodingInterview/
 .idea/
 .idea
 cmake-build-debug

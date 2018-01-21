@@ -14,7 +14,7 @@
  * \param TheStringToConvert
  */
 StringToInt::StringToInt(const std::string &TheStringToConvert) {
-  this->TheString = TheStringToConvert;
+  TheString = TheStringToConvert;
 }
 
 /**
@@ -28,9 +28,9 @@ StringToInt::StringToInt(const std::string &TheStringToConvert) {
  * \return Bool value, if true, checking pass; else exit execution.
  */
 const bool StringToInt::CheckContainsOnlyDigitsAndSign(){
-  std::string tmpString = this->TheString;
+  std::string tmpString = TheString;
 
-  if (this->TheString.empty()) {
+  if (TheString.empty()) {
     std::cerr << "The string to be converted cannot be empty!" << '\n';
     exit(EXIT_FAILURE);
   }
@@ -61,7 +61,7 @@ const bool StringToInt::CheckContainsOnlyDigitsAndSign(){
  * \return Bool value, if positive, return true; else false (negative).
  */
 const bool StringToInt::GetSign() {
-  std::string tmpString = this->TheString;
+  std::string tmpString = TheString;
   int x = tmpString[0] - '0';
   // warning: do not use `0 <= x <= 9`, that would be wrong
   if (0 <= x && x <= 9){
@@ -70,7 +70,7 @@ const bool StringToInt::GetSign() {
     return tmpString[0] == '+';
   }
   // do not simply use below line;
-  // `return this->TheString[0] == '+';`
+  // `return TheString[0] == '+';`
   // because it cannot correctly handle the case where
   // the positive sign is not presented
 }
@@ -83,7 +83,7 @@ const bool StringToInt::GetSign() {
  * \return the absolute int value of the operand
  */
 const int StringToInt::GetAbsoluteValue(){
-  std::string tmpString = this->TheString;
+  std::string tmpString = TheString;
   int i_AbsoluteValue = 0;
   for (int i=0;tmpString[i]!=0;i++){
     //warning: be careful of the index of tmpString, do not always use `0`

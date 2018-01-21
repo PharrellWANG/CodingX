@@ -3,19 +3,23 @@ project(CodingX)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(001_SOURCE_FILES
+set(001_TAppExtendedCollection_SOURCE_FILES
 
   App/TAppExtendedCollection/001_StringToInt/main.cpp
 
   Lib/TLibExtendedCollection/StringToInt.cpp
   Lib/TLibExtendedCollection/StringToInt.h)
-add_executable(Ext_001_StringToInt ${001_SOURCE_FILES})
+add_executable(Ext_001_StringToInt ${001_TAppExtendedCollection_SOURCE_FILES})
 
-set(002_SOURCE_FILES
+set(001_TAppPlayground_SOURCE_FILES
   App/TAppPlayground/001_NatureOfStringAndChar/main.cpp
   )
-add_executable(Play_001_NatureOfStringAndChar ${002_SOURCE_FILES})
+add_executable(Play_001_NatureOfStringAndChar ${001_TAppPlayground_SOURCE_FILES})
 
-set(003_source_files
+set(002_TAppPlayground_source_files
   App/TAppPlayground/002_IntegerBoundary/main.cpp)
-add_executable(Play_002_XIntegerBoundary ${003_source_files})
+add_executable(Play_002_XIntegerBoundary ${002_TAppPlayground_source_files})
+
+set(002_ext_source_files
+  Lib/TLibExtendedCollection/SinglyLinkedList.cpp Lib/TLibExtendedCollection/SinglyLinkedList.h)
+add_executable(Ext_002_SinglyLinkedList ${002_ext_source_files})

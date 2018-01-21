@@ -13,7 +13,7 @@ My C++ battle ground.
 
 ## TAppExtendedCollection
 The questions, which are not from the official examples
-in the book of **Coding Interview** but with some value, are
+in the book of **Coding Interview** but worth a look, are
 included in this section. 
 
 ## F.A.Q
