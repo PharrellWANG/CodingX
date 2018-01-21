@@ -7,6 +7,7 @@ My C++ battle ground.
 - [1.0 TAppExtendedCollection](#10-tappextendedcollection)
 - [2.0 F.A.Q](#20-faq)
     - [2.1 What is the absolute value of the max negative integer](#21-what-is-the-absolute-value-of-the-max-negative-integer)
+    - [2.1 `exit` function](#22-exit-function)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 1.0 TAppExtendedCollection
@@ -17,6 +18,7 @@ included in this section.
 ## 2.0 F.A.Q
 ### 2.1 What is the absolute value of the max negative integer
 [Reference](https://stackoverflow.com/questions/11243014/why-the-absolute-value-of-the-max-negative-integer-2147483648-is-still-2147483)
+
 ```c++
 printf("abs(-2147483648): %d\n", abs(-2147483648));
 //output: abs(-2147483648): -2147483648
@@ -28,6 +30,7 @@ Since 2147483648 is greater than INT_MAX on implementation, then abs(-2147483648
 
 ### 2.2 `exit` function
 [Reference](https://docs.microsoft.com/en-us/cpp/cpp/exit-function)
+
 The `exit` function, declared in the standard include file STDLIB.H, terminates a C++ program.
 
 The value supplied as an argument to exit is returned to the operating system as 
