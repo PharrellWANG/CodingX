@@ -8,6 +8,7 @@ My C++ battle ground.
 - [F.A.Q](#faq)
     - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
     - [`exit` function](#exit-function)
+- [Useful Links](#useful-links)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
