@@ -1,12 +1,12 @@
 # CodingX
 
-My c++ battle ground.
+My C++ battle ground.
 
 ## Table of Contents
 
-- [1.0 TAppExtendedCollection](#1.0-tappextendedcollection)
+- [1.0 TAppExtendedCollection](#10-tappextendedcollection)
 - [2.0 FAQ](#2.0-f.a.q)
-    - [2.1 Why the absolute value of the max negative integer -2147483648 is still -2147483648?](#2.1-why-the-absolute-value-of-the-max-negative-integer--2147483648-is-still--2147483648?)
+    - [2.1 Why the absolute value of the max negative integer -2147483648 is still -2147483648?](#21-why-the-absolute-value-of-the-max-negative-integer-2147483648-is-still-2147483648?)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 1.0 TAppExtendedCollection
