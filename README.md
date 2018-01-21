@@ -6,7 +6,7 @@ My C++ battle ground.
 
 - [1.0 TAppExtendedCollection](#10-tappextendedcollection)
 - [2.0 FAQ](#20-faq)
-    - [2.1 Why the absolute value of the max negative integer -2147483648 is still -2147483648?](#21-why-the-absolute-value-of-the-max-negative-integer-2147483648-is-still-2147483648)
+    - [2.1 Why the absolute value of the max negative integer -2147483648 is still -2147483648?](#21-why-the-absolute-value-of-the-max-negative-integer--2147483648-is-still--2147483648)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 1.0 TAppExtendedCollection
