@@ -5,7 +5,7 @@
 // ASCII stands for ``American Standard Code for Information Interchange``.
 
 #include <iostream>
-//#include <assert.h>
+#include <cassert>
 
 int main() {
   std::string str = "0123456789";
@@ -28,7 +28,10 @@ int main() {
 
   // [static_assert](http://en.cppreference.com/w/cpp/language/static_assert)
   static_assert(('-' - '-') == 0, "('-' - '-') should be equal to 0, isn't it?");
-
+//  assert("" == NULL);
+//  assert("" == 0);
+  std::cout << "The length of empty string is: " << strlen("") << std::endl;
+//  assert("" == '\0');
   std::cout << "\n\nPerfect ending :)\n";
 
   return 0;

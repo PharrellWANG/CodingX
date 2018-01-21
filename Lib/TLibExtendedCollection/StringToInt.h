@@ -3,6 +3,9 @@
 //
 
 // #pragma once
+/** \file     StringToInt.h
+    \brief    entropy decoder class (header)
+*/
 #ifndef CODINGX_STRINGTOINT_H
 #define CODINGX_STRINGTOINT_H
 
@@ -19,6 +22,8 @@ public:
   explicit StringToInt(const std::string& TheStringToConvert);
 
   const bool CheckContainsOnlyDigitsAndSign();
+  const bool GetSign(); // if positive, return true; else false (negative).
+  const int GetAbsoluteValue();
 
 };
 

@@ -48,13 +48,17 @@ int main(){
   // that you expect should always have one result,
   // but perhaps could somehow produce an unexpected result
   // under unanticipated circumstances
-  assert(str[4] == NULL);
-  assert(str[4] == 0);
-  assert(str[5] == NULL);
-  assert(str[5] == '\0');
   // `static_assert` is good for testing logic in your code at compilation time.
   static_assert('\0' == 0, "");
   static_assert('\0' == NULL, "");
+
+  assert(((1<<31)-7) + 7 == (1<<31));
+  std::cout << (1<<31) << std::endl;
+  std::cout << (1<<31)-1 << std::endl;
+  std::cout << (1<<31)-2 << std::endl;
+  std::cout << (1<<31)+1 << std::endl;
+  std::cout << (1<<31)+2 << std::endl;
+
   std::cout << "Yeah, perfect ending" << std::endl;
 
   return 0;
