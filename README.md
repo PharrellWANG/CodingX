@@ -8,7 +8,7 @@ My C++ battle ground.
 - [F.A.Q](#faq)
     - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
     - [`exit` function](#exit-function)
-- [Useful Links](#useful-links)
+- [Links](#links)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
@@ -54,7 +54,7 @@ void last_fn() {}
     exit(0);
 }
 ```
-## Useful Links
+## Links
 * [Bjarne Stroustrup's homepage](http://www.stroustrup.com)
 * [Bjarne Stroustrup's recommendation: Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
 * [Bjarne Stroustrup's C++ Glossary](http://www.stroustrup.com/glossary.html)
