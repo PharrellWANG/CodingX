@@ -59,3 +59,4 @@ void last_fn() {}
 * [Bjarne Stroustrup's recommendation: Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
 * [Bjarne Stroustrup's C++ Glossary](http://www.stroustrup.com/glossary.html)
 * [Bjarne Stroustrup's explanation about `exception`](http://www.stroustrup.com/bs_faq2.html#exceptions-why)
+* [Bjarne Stroustrup: What is so great about classes?](http://www.stroustrup.com/bs_faq.html#class)
