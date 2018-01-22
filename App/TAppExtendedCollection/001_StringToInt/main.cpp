@@ -51,6 +51,9 @@ int main(){
   std::string myStringA;
   getline(std::cin, myStringA);
 
+  StringToInt str2intA(myStringA);
+  str2intA.CheckContainsOnlyDigitsAndSign();
+
   std::cout << "You entered " << myStringA << '\n';
 
   std::cout << "Please enter the 2nd operand:\n";
@@ -58,16 +61,12 @@ int main(){
   std::string myStringB;
   getline(std::cin, myStringB);
 
+  StringToInt str2intB(myStringB);
+  str2intB.CheckContainsOnlyDigitsAndSign();
   std::cout << "You entered " << myStringB << '\n';
 
 //  std::string myStringA = "-2147483648";
 //  std::string myStringB = "0";
-
-  StringToInt str2intA(myStringA);
-  StringToInt str2intB(myStringB);
-
-  str2intA.CheckContainsOnlyDigitsAndSign();
-  str2intB.CheckContainsOnlyDigitsAndSign();
 
   bool SignIsPositiveA = str2intA.GetSign();
   int AbsoluteValueA = str2intA.GetAbsoluteValue();

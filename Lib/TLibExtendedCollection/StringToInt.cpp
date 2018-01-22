@@ -23,6 +23,7 @@ StringToInt::StringToInt(const std::string &TheStringToConvert) {
  *  1. empty string.
  *  2. non-digit && non-sign
  *  3. has a sign which is not at the beginning of the string.
+ *  4. has more than one signs
  *
  * \param TheStringToConvert
  * \return Bool value, if true, checking pass; else exit execution.
@@ -47,6 +48,19 @@ const bool StringToInt::CheckContainsOnlyDigitsAndSign(){
       }
     }
   }
+
+  int counter = 0;
+  for (int i=0;tmpString[i]!=0;i++){
+    if (tmpString[i] == '+' || tmpString[i] == '-'){
+      counter ++;
+    }
+  }
+
+  if (counter>1) {
+    std::cerr << "Input has more than one sign!" << '\n';
+    exit(EXIT_FAILURE);
+  }
+
   return true;
 }
 
