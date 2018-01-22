@@ -5,18 +5,41 @@
 #ifndef CODINGX_SINGLYLINKEDLIST_H
 #define CODINGX_SINGLYLINKEDLIST_H
 
-struct Node{
-  int   m_nValue;
+#include "../TLibUtils/TypeDef.h"
+
+struct Node {
+  Int   m_iValue;
   Node *m_pNext;
 };
 
-class SinglyLinkedList {
-private:
-  Node *head, *tail;
-public:
-  SinglyLinkedList();
-  void CreateNodeAndLinkItAtTail(const int& value);
-//  todo: Finish comprehensive guide to singly linked list; display, insert, delete, count list node numbers using recursion.
+class LinkedList {
+ private:
+  Node *m_head;
+ public:
+  //Constructor
+  LinkedList();//<--- This constructor takes no arguments.It assigns nullptr to both m_head and m_tail
+  //create a node the only information needed is the m_iValue
+  Node* CreateNode(Int value);
+  Node* GetHeadNode();
+  Node* GetTailNode();
+  const int GetLengthOfList();
+  const int GetLengthOfListUsingRecursion(Node* node);
+  // rename to `insert` might be better
+  void AddNodeToTail(Node* node);
+  void AddNodeToHead(Node* node);
+  void AddNodeToPositionX(Int position, Node* node);
+  // 1, 2, *, 3, 4, 5 //<--- this means insert to 3rd position
+  void Display();
+
+//  todo: implement below functions
+//  void DeleteFirst();
+//  void DeleteLast();
+
+//  void DeleteNodeAtPositionX(Int iPos);
+//  void DeleteAllNodesWithValue(Int iValueOfNode);
+
+//  void DestroyList();
+
 };
 
 

@@ -19,7 +19,19 @@ add_executable(Play_001_NatureOfStringAndChar ${001_TAppPlayground_SOURCE_FILES}
 set(002_TAppPlayground_source_files
   App/TAppPlayground/002_IntegerBoundary/main.cpp)
 add_executable(Play_002_XIntegerBoundary ${002_TAppPlayground_source_files})
+set(003_TAppPlayground_source
+        App/TAppPlayground/003_DynamicMemoryAllocation/main.cpp)
+add_executable(Play_003_DynamicMemo ${003_TAppPlayground_source})
 
 set(002_ext_source_files
-  Lib/TLibExtendedCollection/SinglyLinkedList.cpp Lib/TLibExtendedCollection/SinglyLinkedList.h)
+
+    Lib/TLibExtendedCollection/SinglyLinkedList.cpp
+    Lib/TLibExtendedCollection/SinglyLinkedList.h
+
+    Lib/TLibUtils/TypeDef.h
+
+    Lib/TLibExceptions/OutOfRange.cpp
+    Lib/TLibExceptions/OutOfRange.h
+
+    App/TAppExtendedCollection/002_SinglyLinkedList/main.cpp)
 add_executable(Ext_002_SinglyLinkedList ${002_ext_source_files})
