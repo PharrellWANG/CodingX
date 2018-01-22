@@ -31,7 +31,10 @@ class LinkedList {
   // 1, 2, *, 3, 4, 5 //<--- this means insert to 3rd position
   void Display();
 
-//  todo: implement below functions
+// Todo: implement below functions
+// [Reference1](https://raw.githubusercontent.com/kamal-choudhary/singly-linked-list/master/Linked%20List.cpp)
+// [Reference2] "../TLibUtils/ListNode.cpp"
+
 //  void DeleteFirst();
 //  void DeleteLast();
 
