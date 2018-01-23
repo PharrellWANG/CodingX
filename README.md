@@ -16,6 +16,7 @@ My C++ battle ground :fire:.
       * [Handy Links](#handy-links)
 
 <!-- Run `./gh-md-toc README.md` from terminal to generate the updated TOC, then copy paste to above -->
+<!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
