@@ -18,8 +18,7 @@ in the book of **Coding Interview** but worth a look, are
 included in this section. 
 
 ## <a name="diffcc"></a>The differences between C++ and C 
-:notes:
->Note: This is a constantly updated section.
+>:fire:Note: This is a constantly updated section.
 1. 
 
 ## F.A.Q
