@@ -4,12 +4,17 @@ My C++ battle ground :fire:.
 
 ## Table of Contents
 
-- [TAppExtendedCollection](#tappextendedcollection)
-- [The Difference Between C++ and C](#diffcc)
-- [F.A.Q](#faq)
-    - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
-    - [`exit` function](#exit-function)
-- [Handy Links](#handy-links)
+* [CodingX](#codingx)
+      * [Table of Contents](#table-of-contents)
+      * [TAppExtendedCollection](#tappextendedcollection)
+      * [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
+         * [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
+      * [F.A.Q](#faq)
+         * [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
+         * [exit function](#exit-function)
+         * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
+      * [Handy Links](#handy-links)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
@@ -17,9 +22,9 @@ The questions, which are not from the official examples
 in the book of **Coding Interview** but worth a look, are
 included in this section. 
 
-## <a name="diffcc"></a>The differences between C++ and C 
+## The differences between C Plus Plus and C 
 >Note: This is a constantly updated section.
-1. Passing variables via reference `&` was a C++ addition to C.
+### 1. Passing variables via reference was a C Plus Plus addition to C.
 [Reference](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 
 E.G., the `Subroutine1` function below accepts the parameter passed to it in the default 
@@ -83,7 +88,7 @@ void last_fn() {}
 }
 ```
 
-### `const` in C++ declaration
+### `const` in C Plus Plus declaration
 [Reference1](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)|
 [Reference2](https://stackoverflow.com/questions/8808167/c-const-correctness-and-pointer-arguments)|
 [Reference3](https://stackoverflow.com/questions/7715371/whats-the-point-of-const-pointers)|
@@ -91,6 +96,7 @@ void last_fn() {}
 it applies to whatever is **its immediate right**).
 2. Of the possible combinations  of pointers and `const`, the constant pointer to a variable is useful for storage 
 that can be changed in value but **not moved in memory**.
+
 
 ## Handy Links
 * [Bjarne Stroustrup's homepage](http://www.stroustrup.com)
