@@ -1,6 +1,6 @@
 # CodingX
 
-My C++ battle ground.
+My C++ battle ground :fire:.
 
 ## Table of Contents
 
@@ -18,8 +18,31 @@ in the book of **Coding Interview** but worth a look, are
 included in this section. 
 
 ## <a name="diffcc"></a>The differences between C++ and C 
->:fire:Note: This is a constantly updated section.
-1. 
+>Note: This is a constantly updated section.
+1. Passing variables via reference `&` was a C++ addition to C.
+[Reference](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
+
+E.G., the `Subroutine1` function below accepts the parameter passed to it in the default 
+C & C++ way, which is a copy. Therefore the subroutine can read the value of the variable 
+passed to it but not alter it because any alterations it makes are only made to the copy and 
+are lost when the subroutine ends.
+```c++
+void Subroutine1(int iParameter1)
+{
+    iParameter1 = 96;
+}
+```
+
+The `Subroutine2` function introduces the addition of an `&` to the parameter name in C++,
+causes the actual variable itself, rather than a copy, to be used as the parameter in the 
+subroutine and therefore can be written to thereby passing data back out the subroutine.
+```C++
+void Subroutine2(int &iParameter2)
+{
+    iParameter2 = 96;
+}
+``` 
+
 
 ## F.A.Q
 ### What is the absolute value of the max negative integer
