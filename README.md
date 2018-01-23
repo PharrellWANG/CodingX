@@ -82,9 +82,18 @@ void last_fn() {}
     exit(0);
 }
 ```
+
+### `const` in C++ declaration
+[Reference1](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
+[Reference2](https://stackoverflow.com/questions/8808167/c-const-correctness-and-pointer-arguments)
+[Reference3](https://stackoverflow.com/questions/7715371/whats-the-point-of-const-pointers)
+`const` applies to whatever is on **its immediate left** (other than if there is *nothing* there in which case 
+it applies to whatever is **its immediate right**).
+
 ## Handy Links
 * [Bjarne Stroustrup's homepage](http://www.stroustrup.com)
 * [Bjarne Stroustrup's recommendation: Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
 * [Bjarne Stroustrup's C++ Glossary](http://www.stroustrup.com/glossary.html)
 * [Bjarne Stroustrup's explanation about `exception`](http://www.stroustrup.com/bs_faq2.html#exceptions-why)
 * [Bjarne Stroustrup: What is so great about classes?](http://www.stroustrup.com/bs_faq.html#class)
+* [What is OOP](http://duramecho.com/ComputerInformation/WhatIsObjectOrientedProgramming.html)
