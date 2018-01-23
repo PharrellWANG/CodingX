@@ -87,8 +87,10 @@ void last_fn() {}
 [Reference1](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 [Reference2](https://stackoverflow.com/questions/8808167/c-const-correctness-and-pointer-arguments)
 [Reference3](https://stackoverflow.com/questions/7715371/whats-the-point-of-const-pointers)
-`const` applies to whatever is on **its immediate left** (other than if there is *nothing* there in which case 
+1. `const` applies to whatever is on **its immediate left** (other than if there is *nothing* there in which case 
 it applies to whatever is **its immediate right**).
+2. Of the possible combinations  of pointers and `const`, the constant pointer to a variable is useful for storage 
+that can be changed in value but **not moved in memory**.
 
 ## Handy Links
 * [Bjarne Stroustrup's homepage](http://www.stroustrup.com)
