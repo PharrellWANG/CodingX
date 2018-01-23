@@ -17,7 +17,8 @@ The questions, which are not from the official examples
 in the book of **Coding Interview** but worth a look, are
 included in this section. 
 
-## <a name="diffcc"></a>The differences between C++ and C
+## <a name="diffcc"></a>The differences between C++ and C 
+:notes:
 >Note: This is a constantly updated section.
 1. 
 
