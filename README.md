@@ -15,7 +15,12 @@ My C++ battle ground :fire:.
      - [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
   - [Handy Links](#handy-links)
 
-<!-- Run `./gh-md-toc README.md` from terminal to generate the updated TOC, then copy paste to above -->
+<!-- Run `./gh-md-toc README.md` from terminal to generate the updated 
+TOC, then copy paste to above -->
+<!-- Be careful of the format of table of contents, 
+1. need to use `-` instead of `*`
+2. need to use proper indent.(make sure not to overindent) 
+-->
 <!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
