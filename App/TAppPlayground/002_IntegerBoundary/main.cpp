@@ -24,7 +24,7 @@ int main(){
   std::cout << "fmin: " << fmin << std::endl;
   std::cout << "fmin: " << fmax << std::endl;
 
-  int MaxInteger = (1<<31) - 1;
+  int MaxInteger = ((1<<31)-1);
   int MinInteger = 1<<31;
   int MaxIntPlusOne = MaxInteger + 1;
   std::cout << "max signed integer: " << MaxInteger << std::endl;
@@ -40,9 +40,9 @@ int main(){
   std::cout << "=============" << std::endl;
   std::cout << (str[2] == ' ') << std::endl;
   std::cout << (str[4] == '\0') << std::endl;
-  std::cout << (str[4] == NULL) << std::endl;
+//  std::cout << (str[4] == NULL) << std::endl;
   std::cout << (str[15] == '\0') << std::endl;
-  std::cout << (str[51] == NULL) << std::endl;
+//  std::cout << (str[51] == NULL) << std::endl;
   std::cout << "=============" << std::endl;
   // `assert` is good for checking a case during run-time
   // that you expect should always have one result,
@@ -50,7 +50,7 @@ int main(){
   // under unanticipated circumstances
   // `static_assert` is good for testing logic in your code at compilation time.
   static_assert('\0' == 0, "");
-  static_assert('\0' == NULL, "");
+//  static_assert('\0' == NULL, "");
 
   assert(((1<<31)-7) + 7 == (1<<31));
   std::cout << (1<<31) << std::endl;
