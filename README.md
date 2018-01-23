@@ -15,6 +15,7 @@ My C++ battle ground :fire:.
          * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
       * [Handy Links](#handy-links)
 
+<!-- Run `./gh-md-toc README.md` from terminal to generate the updated TOC, then copy paste to above -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
