@@ -5,6 +5,7 @@ My C++ battle ground.
 ## Table of Contents
 
 - [TAppExtendedCollection](#tappextendedcollection)
+- [The Difference Between C++ and C](#diffcc)
 - [F.A.Q](#faq)
     - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
     - [`exit` function](#exit-function)
@@ -15,6 +16,10 @@ My C++ battle ground.
 The questions, which are not from the official examples
 in the book of **Coding Interview** but worth a look, are
 included in this section. 
+
+## <a name="diffcc"></a>The differences between C++ and C
+>Note: This is a constantly updated section.
+1. 
 
 ## F.A.Q
 ### What is the absolute value of the max negative integer

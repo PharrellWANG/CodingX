@@ -6,9 +6,11 @@
 
 int main()
 {
-    auto *ptr = new int;
-    *ptr = 4;
-    std::cout << *ptr << std::endl;
-    delete ptr;
-    return 0;
+  int x = 3>>1;
+  std::cout << " 3>>1 : " << x << std::endl;
+  auto *ptr = new int;
+  *ptr = 4;
+  std::cout << *ptr << std::endl;
+  delete ptr;
+  return 0;
 }

@@ -35,3 +35,8 @@ set(002_ext_source_files
 
     App/TAppExtendedCollection/002_SinglyLinkedList/main.cpp)
 add_executable(Ext_002_SinglyLinkedList ${002_ext_source_files})
+
+set(001_TAppCodingInterview_Source_Files
+        App/TAppCodingInterview/001_IsPalindrome/main.cpp
+        )
+add_executable(CI_001_isPalindrome App/TAppCodingInterview/001_IsPalindrome/main.cpp)
