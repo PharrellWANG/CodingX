@@ -4,16 +4,16 @@ My C++ battle ground :fire:.
 
 ## Table of Contents
 
-* [CodingX](#codingx)
-      * [Table of Contents](#table-of-contents)
-      * [TAppExtendedCollection](#tappextendedcollection)
-      * [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
-         * [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
-      * [F.A.Q](#faq)
-         * [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
-         * [exit function](#exit-function)
-         * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
-      * [Handy Links](#handy-links)
+- [CodingX](#codingx)
+      - [Table of Contents](#table-of-contents)
+      - [TAppExtendedCollection](#tappextendedcollection)
+      - [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
+         - [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
+      - [F.A.Q](#faq)
+         - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
+         - [exit function](#exit-function)
+         - [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
+      - [Handy Links](#handy-links)
 
 <!-- Run `./gh-md-toc README.md` from terminal to generate the updated TOC, then copy paste to above -->
 <!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
