@@ -6,6 +6,7 @@ My C++ battle ground :fire:.
 
 * [CodingX](#codingx)
   * [Table of Contents](#table-of-contents)
+  * [About TOC](#about-toc)
   * [TAppExtendedCollection](#tappextendedcollection)
   * [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
      * [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
@@ -16,15 +17,11 @@ My C++ battle ground :fire:.
      * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
   * [Handy Links](#handy-links)
 
+## About TOC
+Run `./gh-md-toc README.md` from terminal to generate the updated 
+TOC, then copy paste to update [Table of Contents](#table-of-contents).
 
-<!-- Run `./gh-md-toc README.md` from terminal to generate the updated 
-TOC, then copy paste to above -->
-<!-- Be careful of the format of table of contents, 
-1. need to use `-` instead of `*`
-2. need to use proper indent.(make sure not to overindent) 
-  -->
-  <!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
-  <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+[Reference](https://github.com/ekalinin/github-markdown-toc)
 
 ## TAppExtendedCollection
 The questions, which are not from the official examples
