@@ -4,25 +4,27 @@ My C++ battle ground :fire:.
 
 ## Table of Contents
 
-- [CodingX](#codingx)
-  - [Table of Contents](#table-of-contents)
-  - [TAppExtendedCollection](#tappextendedcollection)
-  - [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
-     - [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
-  - [F.A.Q](#faq)
-     - [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
-     - [exit function](#exit-function)
-     - [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
-  - [Handy Links](#handy-links)
+* [CodingX](#codingx)
+  * [Table of Contents](#table-of-contents)
+  * [TAppExtendedCollection](#tappextendedcollection)
+  * [The differences between C Plus Plus and C](#the-differences-between-c-plus-plus-and-c)
+     * [1. Passing variables via reference was a C Plus Plus addition to C.](#1-passing-variables-via-reference-was-a-c-plus-plus-addition-to-c)
+     * [2. The method to play with strings](#2-the-method-to-play-with-strings)
+  * [F.A.Q](#faq)
+     * [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
+     * [exit function](#exit-function)
+     * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
+  * [Handy Links](#handy-links)
+
 
 <!-- Run `./gh-md-toc README.md` from terminal to generate the updated 
 TOC, then copy paste to above -->
 <!-- Be careful of the format of table of contents, 
 1. need to use `-` instead of `*`
 2. need to use proper indent.(make sure not to overindent) 
--->
-<!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+  -->
+  <!-- [Reference](https://github.com/ekalinin/github-markdown-toc) -->
+  <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TAppExtendedCollection
 The questions, which are not from the official examples
@@ -48,15 +50,22 @@ void Subroutine1(int iParameter1)
 The `Subroutine2` function introduces the addition of an `&` to the parameter name in C++,
 causes the actual variable itself, rather than a copy, to be used as the parameter in the 
 subroutine and therefore can be written to thereby passing data back out the subroutine.
+
 ```C++
 void Subroutine2(int &iParameter2)
 {
     iParameter2 = 96;
 }
-``` 
+```
 
+### 2. The method to play with strings
+
+C uses **array of chars** to represent string while Cpp has a **dedicated String class** for manipulating strings.
+
+Meanwhile, the C-style string method is also available in C++.
 
 ## F.A.Q
+
 ### What is the absolute value of the max negative integer
 [Reference](https://stackoverflow.com/questions/11243014/why-the-absolute-value-of-the-max-negative-integer-2147483648-is-still-2147483)
 
@@ -79,7 +88,7 @@ the program's return code or exit code. By convention, a return code of zero mea
 that the program completed successfully.
 
 >You can use the constants `EXIT_FAILURE` and `EXIT_SUCCESS`, 
-defined in STDLIB.H, to indicate success or failure of your program.
+>defined in STDLIB.H, to indicate success or failure of your program.
 
 Issuing a `return` statement from the main function is equivalent to 
 calling the `exit` function with the return value as its argument.
@@ -100,9 +109,9 @@ void last_fn() {}
 [Reference2](https://stackoverflow.com/questions/8808167/c-const-correctness-and-pointer-arguments)|
 [Reference3](https://stackoverflow.com/questions/7715371/whats-the-point-of-const-pointers)
 1. `const` applies to whatever is on **its immediate left** (other than if there is *nothing* there in which case 
-it applies to whatever is **its immediate right**).
+  it applies to whatever is **its immediate right**).
 2. Of the possible combinations  of pointers and `const`, the constant pointer to a variable is useful for storage 
-that can be changed in value but **not moved in memory**.
+  that can be changed in value but **not moved in memory**.
 
 
 ## Handy Links
