@@ -35,3 +35,8 @@ set(002_ext_source_files
 
     App/TAppExtendedCollection/002_SinglyLinkedList/main.cpp)
 add_executable(Ext_002_SinglyLinkedList ${002_ext_source_files})
+
+set(000_have_a_try
+        App/TAppPlayground/000_HaveATry/main.cpp
+        App/TAppPlayground/000_HaveATry/main.cpp)
+add_executable(play_000_have_a_try ${000_have_a_try})
