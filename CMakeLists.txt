@@ -40,3 +40,15 @@ set(001_TAppCodingInterview_Source_Files
         App/TAppCodingInterview/001_IsPalindrome/main.cpp
         )
 add_executable(CI_001_isPalindrome App/TAppCodingInterview/001_IsPalindrome/main.cpp)
+
+set(003_ArrayAndPointer
+        App/TAppExtendedCollection/003_ArrayAndPointer/main.cpp)
+add_executable(Ext_003_ArrayAndPointer ${003_ArrayAndPointer})
+
+set(004_BaseConversion
+        App/TAppExtendedCollection/004_BaseConversion/main.cpp
+        Lib/TLibExtendedCollection/BinaryToDecimal.cpp
+        Lib/TLibExtendedCollection/BinaryToDecimal.h
+        Lib/TLibExtendedCollection/DecimalToAny.cpp
+        Lib/TLibExtendedCollection/DecimalToAny.h)
+add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
