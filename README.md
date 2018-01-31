@@ -128,13 +128,6 @@ The keyword static can be used in three major contexts:
       
       It means that each `.cpp` file has its own copy of the variable. Thus, when you initialize in `main.cpp`, it is initialized **ONLY** in `main.cpp`. The other files have it still **uninitialized**.
 ### `long long`
-Specifier(s)         Type
--------------    -------------
-long long int    long long int
-long long        long long int
-long int         long int
-long             long int
-
 
 | Specifier(s)  | Type          | 
 | ------------- |:-------------:|
