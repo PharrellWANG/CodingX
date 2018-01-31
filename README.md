@@ -127,6 +127,16 @@ The keyword static can be used in three major contexts:
     - Static is a keyword with many meanings, and in this particular case, it means not global (paraphrasing)
       
       It means that each `.cpp` file has its own copy of the variable. Thus, when you initialize in `main.cpp`, it is initialized **ONLY** in `main.cpp`. The other files have it still **uninitialized**.
+### `long long`
+Specifier(s)         Type
+-------------    -------------
+long long int    long long int
+long long        long long int
+long int         long int
+long             long int
+
+`long` at least 32 bits;
+`long long` at least 64 bits.
 
 ## Handy Links
 * [Bjarne Stroustrup's homepage](http://www.stroustrup.com)
