@@ -50,5 +50,5 @@ set(004_BaseConversion
         Lib/TLibExtendedCollection/BinaryToDecimal.cpp
         Lib/TLibExtendedCollection/BinaryToDecimal.h
         Lib/TLibExtendedCollection/DecimalToAny.cpp
-        Lib/TLibExtendedCollection/DecimalToAny.h)
+        Lib/TLibExtendedCollection/DecimalToAny.h Lib/TLibExceptions/NotBinary.cpp Lib/TLibExceptions/NotBinary.h Lib/TLibExtendedCollection/OctalToBinary.cpp Lib/TLibExtendedCollection/OctalToBinary.h)
 add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
