@@ -1,6 +1,6 @@
 # CodingX
 
-My C++ battle ground :fire:.
+C++ battle ground :fire:.
 
 ## Table of Contents
 
