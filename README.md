@@ -115,6 +115,7 @@ void last_fn() {}
 
 ### `static` in C Plus Plus
 [Reference](https://www.cprogramming.com/tutorial/statickeyword.html)
+
 The keyword static can be used in three major contexts: 
 1. inside a function, 
     - The use of static inside a function is the simplest. It simply means that once the variable has been initialized, it remains in memory until the end of the program.
