@@ -135,6 +135,14 @@ long long        long long int
 long int         long int
 long             long int
 
+
+| Specifier(s)  | Type          | 
+| ------------- |:-------------:|
+| long long int | long long int |
+| long long     | long long int |
+| long int      | long int      |
+| long          | long int      |
+
 `long` at least 32 bits;
 `long long` at least 64 bits.
 
