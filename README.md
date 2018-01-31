@@ -15,7 +15,10 @@ My C++ battle ground :fire:.
      * [What is the absolute value of the max negative integer](#what-is-the-absolute-value-of-the-max-negative-integer)
      * [exit function](#exit-function)
      * [const in C Plus Plus declaration](#const-in-c-plus-plus-declaration)
+     * [static in C Plus Plus](#static-in-c-plus-plus)
+     * [long long](#long-long)
   * [Handy Links](#handy-links)
+
 
 ## About TOC
 Run `./gh-md-toc README.md` from terminal to generate the updated 
