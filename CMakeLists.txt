@@ -52,3 +52,7 @@ set(004_BaseConversion
         Lib/TLibExtendedCollection/DecimalToAny.cpp
         Lib/TLibExtendedCollection/DecimalToAny.h Lib/TLibExceptions/NotBinary.cpp Lib/TLibExceptions/NotBinary.h Lib/TLibExtendedCollection/OctalToBinary.cpp Lib/TLibExtendedCollection/OctalToBinary.h)
 add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
+
+set(005_TAPP_CI_DUPLICATION_IN_ARRAY
+        App/TAppCodingInterview/005_duplication_in_array/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h)
+add_executable(ci_005_duplication_in_array ${005_TAPP_CI_DUPLICATION_IN_ARRAY})

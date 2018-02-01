@@ -112,6 +112,14 @@ void last_fn() {}
   it applies to whatever is **its immediate right**).
 2. Of the possible combinations  of pointers and `const`, the constant pointer to a variable is useful for storage 
   that can be changed in value but **not moved in memory**.
+  
+### Bit shift
+
+``<< x`` <=> ``* 2^x`` (multiply with 2^x)
+
+``>> x`` <=> ``/ 2^x`` (divided by 2^x)
+
+  
 
 ### `static` in C Plus Plus
 [Reference](https://www.cprogramming.com/tutorial/statickeyword.html)
