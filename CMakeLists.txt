@@ -54,5 +54,8 @@ set(004_BaseConversion
 add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
 
 set(005_TAPP_CI_DUPLICATION_IN_ARRAY
-        App/TAppCodingInterview/005_duplication_in_array/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h)
+        App/TAppCodingInterview/005_DuplicationInArray/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h)
 add_executable(ci_005_duplication_in_array ${005_TAPP_CI_DUPLICATION_IN_ARRAY})
+
+set(006_ci Lib/TLibCodingInterview/MoreDuplicationInArray.cpp Lib/TLibCodingInterview/MoreDuplicationInArray.h App/TAppCodingInterview/006_MoreDuplicationInArray/main.cpp Lib/TLibExceptions/SimpleOutOfRange.cpp Lib/TLibExceptions/SimpleOutOfRange.h)
+add_executable(ci_006_more_duplication_in_array ${006_ci})

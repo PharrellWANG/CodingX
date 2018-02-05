@@ -11,7 +11,8 @@ class OutOfRange {
   Int m_iPosition;
   Int m_iLengthOfList;
  public:
-  explicit OutOfRange(int a=0, int b=0): m_iPosition(a), m_iLengthOfList(b) {}
+  // constructors that are callable with a single argument must be marked as `explicit` to avoid unintentional implicit conversions
+  OutOfRange(int a=0, int b=0): m_iPosition(a), m_iLengthOfList(b) {}
   void Msg();
 };
 
