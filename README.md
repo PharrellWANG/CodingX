@@ -370,6 +370,12 @@ Those sequence containers are also known as **data structures**.
 
 [STL Containers - diffrence between vector, list and deque](https://stackoverflow.com/questions/9650254/stl-containers-diffrence-between-vector-list-and-deque)
 
+### Call a constructor function without any arguments
+
+When the parser sees ``MyClass myObj();``, it thinks you are trying to declare a function called ``myObj`` that has no parameters and returns a ``MyClass``.
+
+The **correct** way is: ``MyClass myObj`` where parentheses do not occur.
+
 
 
 ## Handy Links

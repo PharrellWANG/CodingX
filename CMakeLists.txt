@@ -59,3 +59,6 @@ add_executable(ci_005_duplication_in_array ${005_TAPP_CI_DUPLICATION_IN_ARRAY})
 
 set(006_ci Lib/TLibCodingInterview/MoreDuplicationInArray.cpp Lib/TLibCodingInterview/MoreDuplicationInArray.h App/TAppCodingInterview/006_MoreDuplicationInArray/main.cpp Lib/TLibExceptions/SimpleOutOfRange.cpp Lib/TLibExceptions/SimpleOutOfRange.h)
 add_executable(ci_006_more_duplication_in_array ${006_ci})
+
+set(007_ci App/TAppCodingInterview/007_SearchInMatrix/main.cpp)
+add_executable(ci_007_search_in_2d_matrix ${007_ci})
