@@ -23,9 +23,12 @@
 class DuplicationInArray {
 private:
     int* array; // ---> pointer to int
-    unsigned int size; // ---> unsigned int can be 2 or 4 bytes, hence [0, 2**16] or [0, 2**32]
+    unsigned int size;
+    // ---> unsigned int can be 2 or 4 bytes,
+    // hence [0, 2**16] or [0, 2**32], i.e., pow(2, 16), pow(2, 32))
+
     // use =delete to prevent calling of a special member function
-//    DuplicationInArray(const DuplicationInArray&) = delete; //---> copy constructor
+    // DuplicationInArray(const DuplicationInArray&) = delete; //---> copy constructor
 public:
     DuplicationInArray(unsigned int Size, int duplicatedNumber):
             array(new int[Size]),
