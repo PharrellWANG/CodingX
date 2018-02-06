@@ -378,6 +378,9 @@ When the parser sees ``MyClass myObj();``, it thinks you are trying to declare a
 
 The **correct** way is: ``MyClass myObj`` where parentheses do not occur.
 
+### Big O
+
+It costs `O(logn)` time for a binary search on `n` numbers,
 
 
 ## Handy Links

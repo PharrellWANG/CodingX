@@ -5,5 +5,5 @@
 #include <iostream>
 
 int main(){
-  std::cout << "Refer to `App/TAppPlayground/004_MatrixInCpp`, when you have time, you can move it to this place." << std::endl;
+  std::cout << "Refer to `App/TAppPlayground/004_BinarySearchInSortedMatrix`, when you have time, you can move it to this place." << std::endl;
 }

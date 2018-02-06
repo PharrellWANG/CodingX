@@ -63,5 +63,8 @@ add_executable(ci_006_more_duplication_in_array ${006_ci})
 set(007_ci App/TAppCodingInterview/007_SearchInMatrix/main.cpp)
 add_executable(ci_007_search_in_2d_matrix ${007_ci})
 
-set(004_playground_matrix_in_cpp Lib/TLibPlayground/MatrixInCpp.cpp Lib/TLibPlayground/MatrixInCpp.h App/TAppPlayground/004_MatrixInCpp/main.cpp)
+set(004_playground_matrix_in_cpp Lib/TLibPlayground/MatrixInCpp.cpp Lib/TLibPlayground/MatrixInCpp.h App/TAppPlayground/004_BinarySearchInSortedMatrix/main.cpp)
 add_executable(play_004_matrix ${004_playground_matrix_in_cpp})
+
+set(008_ci App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/main.cpp App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/LibSearch.cpp App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/LibSearch.h)
+add_executable(ci_008_search_in_partially_sorted_matrix ${008_ci})
