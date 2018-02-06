@@ -390,4 +390,5 @@ It costs `O(logn)` time for a binary search on `n` numbers,
 * [Bjarne Stroustrup's explanation about `exception`](http://www.stroustrup.com/bs_faq2.html#exceptions-why)
 * [Bjarne Stroustrup: What is so great about classes?](http://www.stroustrup.com/bs_faq.html#class)
 * [What is OOP](http://duramecho.com/ComputerInformation/WhatIsObjectOrientedProgramming.html)
-* [Cpp String Examples](http://anaturb.net/C/string_exapm.htm)
+* [String: Cpp String Examples](http://anaturb.net/C/string_exapm.htm)
+* [String: More about C strings (including downsides of C strings)](https://www.cs.fsu.edu/~myers/cop3330/notes/strings.html)

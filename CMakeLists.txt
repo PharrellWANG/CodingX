@@ -74,3 +74,6 @@ add_executable(play_005_main_01 ${play_005_main_01})
 
 set(play_005_main_02 App/TAppPlayground/005_StringInCpp/02_Getline.cpp)
 add_executable(play_005_main_02 ${play_005_main_02})
+
+set(ci_009_replace_blanks App/TAppCodingInterview/009_ReplaceBlanks/Lib.cpp App/TAppCodingInterview/009_ReplaceBlanks/Lib.h App/TAppCodingInterview/009_ReplaceBlanks/main.cpp)
+add_executable(ci_009_replace_blanks ${ci_009_replace_blanks})
