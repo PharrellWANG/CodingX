@@ -42,7 +42,7 @@ bool MatrixInCpp::find(){
   int start = 0;
   int end = rows * cols -1;
 
-  while(start < end){ // --> attention to the conditionof start < end
+  while(start <= end){ // --> attention to the conditionof start < end
     int mid = start + (end-start)/2;
     int row = mid / cols; // --> attention that there exist no minus 1, because everthing starts with 0.
     int col = mid % cols;

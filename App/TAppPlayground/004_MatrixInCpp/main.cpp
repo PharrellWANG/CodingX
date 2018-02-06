@@ -1,12 +1,16 @@
 //
 // Created by Pharrell_WANG on 6/2/2018.
 //
+/// Test cases:
+/// 1. The matrix contains the target value (including cases where the target value is the maximum or minimum in the matrix)
+/// 2. The matrix does not contain the target value (including cases where the target is larger than the maximum or less than the minimum)
+/// 3. Special matrices, including matrices with only one row, only one column, or with only one element
 
 #include <iostream>
 #include "../../../Lib/TLibPlayground/MatrixInCpp.h"
 
 int main(){
-  const int cNumberToFind = 8;
+  const int cNumberToFind = 21;
 
   MatrixInCpp MatObj(cNumberToFind);
   MatObj.printMat();
