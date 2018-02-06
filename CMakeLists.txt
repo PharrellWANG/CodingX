@@ -68,3 +68,9 @@ add_executable(play_004_matrix ${004_playground_matrix_in_cpp})
 
 set(008_ci App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/main.cpp App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/LibSearch.cpp App/TAppCodingInterview/008_SearchInPartiallySortedMatrix/LibSearch.h)
 add_executable(ci_008_search_in_partially_sorted_matrix ${008_ci})
+
+set(play_005_main_01 App/TAppPlayground/005_StringInCpp/01_Constructor.cpp)
+add_executable(play_005_main_01 ${play_005_main_01})
+
+set(play_005_main_02 App/TAppPlayground/005_StringInCpp/02_Getline.cpp)
+add_executable(play_005_main_02 ${play_005_main_02})
