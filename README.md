@@ -392,3 +392,4 @@ It costs `O(logn)` time for a binary search on `n` numbers,
 * [What is OOP](http://duramecho.com/ComputerInformation/WhatIsObjectOrientedProgramming.html)
 * [String: Cpp String Examples](http://anaturb.net/C/string_exapm.htm)
 * [String: More about C strings (including downsides of C strings)](https://www.cs.fsu.edu/~myers/cop3330/notes/strings.html)
+* [Why do you use double pointers](https://stackoverflow.com/questions/5580761/why-use-double-pointer-or-why-use-pointers-to-pointers)
