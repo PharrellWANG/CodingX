@@ -2,9 +2,9 @@
 // Created by Pharrell_WANG on 6/2/2018.
 //
 
-#include "Lib.h"
+#include "LibReplaceBlanks.h"
 
-void Lib::Replace1() {
+void LibReplaceBlanks::Replace1() {
   std::cout << "Original string: " << str1 << std::endl;
   int idx = 0;
   int spaces = 0;
@@ -32,7 +32,7 @@ void Lib::Replace1() {
   std::cout << "Replaced string: " << str1 << std::endl;
 }
 
-void Lib::Replace2() {
+void LibReplaceBlanks::Replace2() {
   std::cout << "Original string: " << str2 << std::endl;
 //  str2.replace(1, 4, "hah");
   for (int i =0; i <str2.length(); i ++){

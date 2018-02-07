@@ -2,13 +2,13 @@
 // Created by Pharrell_WANG on 6/2/2018.
 //
 
-#ifndef CODINGX_LIB_H
-#define CODINGX_LIB_H
+#ifndef CODINGX_LIBREPLACEBLANKS_H
+#define CODINGX_LIBREPLACEBLANKS_H
 #include <string>
 #include <utility>
 #include <iostream>
 
-class Lib {
+class LibReplaceBlanks {
  private:
   char str1[50] = "I love programming.";
   std::string str2 = "I do love programming.";
@@ -17,4 +17,4 @@ class Lib {
   void Replace2();
 };
 
-#endif //CODINGX_LIB_H
+#endif //CODINGX_LIBREPLACEBLANKS_H
