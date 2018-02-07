@@ -30,6 +30,8 @@ class LinkedList {
   void AddNodeToPositionX(Int position, Node* node);
   // 1, 2, *, 3, 4, 5 //<--- this means insert to 3rd position
   void Display();
+  void ReverseDisplayUsingStack();
+  void ReverseDisplayUsingRecursion(Node* node);
 
 // Todo: implement below functions
 // [Reference1](https://raw.githubusercontent.com/kamal-choudhary/singly-linked-list/master/Linked%20List.cpp)

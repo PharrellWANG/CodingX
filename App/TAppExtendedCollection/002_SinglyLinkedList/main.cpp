@@ -61,6 +61,11 @@ int main()
   cout<<"---------------Displaying All nodes---------------";
   cout<<"\n--------------------------------------------------\n";
   obj.Display();
+  std::cout << std::endl;
+  obj.ReverseDisplayUsingStack();
+  std::cout << std::endl;
+  Node* node = obj.GetHeadNode();
+  obj.ReverseDisplayUsingRecursion(node);
 
   return 0;
 }

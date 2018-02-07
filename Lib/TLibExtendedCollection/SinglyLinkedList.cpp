@@ -2,9 +2,10 @@
 // Created by Pharrell_WANG on 22/1/2018.
 //
 
-#include "SinglyLinkedList.h"
 #include <iostream>
-#include "../TLibUtils/TypeDef.h"
+#include <stack>
+#include "SinglyLinkedList.h"
+//#include "../TLibUtils/TypeDef.h"
 #include "../TLibExceptions/OutOfRange.h"
 
 //Constructor
@@ -134,4 +135,28 @@ void LinkedList::Display() {
     pNode = pNode->m_pNext;
   }
 //  std::cout << "\nEnd of Display.\n";
+}
+
+void LinkedList::ReverseDisplayUsingStack() {
+  std::stack<Node*> nodes;
+  Node* pNode = GetHeadNode();
+  while(pNode){
+    nodes.push(pNode);
+    pNode = pNode->m_pNext;
+  }
+  while(!nodes.empty()){
+    pNode = nodes.top();
+    std::cout << pNode->m_iValue << '\t';
+    nodes.pop();
+  }
+}
+
+void LinkedList::ReverseDisplayUsingRecursion(Node* node) {
+//  Node* pNode = GetHeadNode();
+  if (node) {
+    if (node->m_pNext){
+      ReverseDisplayUsingRecursion(node->m_pNext);
+    }
+    std::cout << node->m_iValue << '\t';
+  }
 }
