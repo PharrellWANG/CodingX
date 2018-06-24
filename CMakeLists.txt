@@ -54,7 +54,7 @@ set(004_BaseConversion
 add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
 
 set(005_TAPP_CI_DUPLICATION_IN_ARRAY
-        App/TAppCodingInterview/005_DuplicationInArray/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h App/TAppCppPrimerPlus/001_If/main.cpp)
+        App/TAppCodingInterview/005_DuplicationInArray/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h App/TAppCppPrimerPlus/001_If/main.cpp App/TAppCppPrimerPlus/003_Not/main.cpp)
 add_executable(ci_005_duplication_in_array ${005_TAPP_CI_DUPLICATION_IN_ARRAY})
 
 set(006_ci Lib/TLibCodingInterview/MoreDuplicationInArray.cpp Lib/TLibCodingInterview/MoreDuplicationInArray.h App/TAppCodingInterview/006_MoreDuplicationInArray/main.cpp Lib/TLibExceptions/SimpleOutOfRange.cpp Lib/TLibExceptions/SimpleOutOfRange.h)
@@ -86,3 +86,6 @@ add_executable(TAppCppPrimerPlus_001_If ${TAppCppPrimerPlus_001_If})
 
 set(TAppCppPrimerPlus_002_IfElse App/TAppCppPrimerPlus/002_IfElse/main.cpp)
 add_executable(TAppCppPrimerPlus_002_IfElse ${TAppCppPrimerPlus_002_IfElse})
+
+set(TAppCppPrimerPlus_003_Not App/TAppCppPrimerPlus/003_Not/main.cpp)
+add_executable(TAppCppPrimerPlus_003_Not ${TAppCppPrimerPlus_003_Not})
