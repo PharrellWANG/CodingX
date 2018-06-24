@@ -54,7 +54,7 @@ set(004_BaseConversion
 add_executable(Ext_004_BaseConversion ${004_BaseConversion} )
 
 set(005_TAPP_CI_DUPLICATION_IN_ARRAY
-        App/TAppCodingInterview/005_DuplicationInArray/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h)
+        App/TAppCodingInterview/005_DuplicationInArray/main.cpp Lib/TLibCodingInterview/DuplicationInArray.cpp Lib/TLibCodingInterview/DuplicationInArray.h App/TAppCppPrimerPlus/001_If/main.cpp)
 add_executable(ci_005_duplication_in_array ${005_TAPP_CI_DUPLICATION_IN_ARRAY})
 
 set(006_ci Lib/TLibCodingInterview/MoreDuplicationInArray.cpp Lib/TLibCodingInterview/MoreDuplicationInArray.h App/TAppCodingInterview/006_MoreDuplicationInArray/main.cpp Lib/TLibExceptions/SimpleOutOfRange.cpp Lib/TLibExceptions/SimpleOutOfRange.h)
@@ -80,3 +80,6 @@ add_executable(ci_009_replace_blanks ${ci_009_replace_blanks})
 
 set(ci_010_merge_sorted_arrays App/TAppCodingInterview/010_MergeSortedArrays/LibMergeSortedArrays.cpp App/TAppCodingInterview/010_MergeSortedArrays/LibMergeSortedArrays.h App/TAppCodingInterview/010_MergeSortedArrays/main.cpp)
 add_executable(ci_010_merge_sorted_arrays ${ci_010_merge_sorted_arrays})
+
+set(TAppCppPrimerPlus_001_If App/TAppCppPrimerPlus/001_If/main.cpp)
+add_executable(TAppCppPrimerPlus_001_If ${TAppCppPrimerPlus_001_If})

@@ -43,6 +43,7 @@ included in this section.
 
 ## The differences between C Plus Plus and C 
 >Note: This is a constantly updated section.
+
 ### 1. Passing variables via reference was a C Plus Plus addition to C.
 [Reference](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 
@@ -73,6 +74,31 @@ void Subroutine2(int &iParameter2)
 C uses **array of chars** to represent string while Cpp has a **dedicated String class** for manipulating strings.
 
 Meanwhile, the C-style string method is also available in C++.
+
+## Type ``size_t``
+
+1. An **alias** of one of the fundamental **unsigned integral types**. Or, we can say, ``size_t`` is an unsigned integral type.
+
+2. It is a type able to represent the size of **any** object in **bytes**.
+
+3. ``size_t`` is the type returned by the ``sizeof`` operator and is widely used in 
+the standard library to represent sizes and counts.
+
+4. It is also used as the return type for ``strcspn``, ``strlen``, ``strspn`` 
+and ``strxfrm`` to return sizes and lengths.
+
+See [Cpp type system](https://en.cppreference.com/w/cpp/language/type) for details about all the types in Cpp.
+See also [Fundamental Types](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp)
+
+> **Integral types** are capable of handling whole numbers. **Floating point types** are capable of specifying values that may have fractional parts.
+
+**``strcspn``**: http://www.cplusplus.com/reference/cstring/strcspn/
+ 
+**``strlen``**: http://www.cplusplus.com/reference/cstring/strlen/
+
+**``strspn``**: http://www.cplusplus.com/reference/cstring/strspn/
+
+**``strxfrm``**: http://www.cplusplus.com/reference/cstring/strxfrm/
 
 ## F.A.Q
 
