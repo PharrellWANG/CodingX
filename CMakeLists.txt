@@ -83,3 +83,6 @@ add_executable(ci_010_merge_sorted_arrays ${ci_010_merge_sorted_arrays})
 
 set(TAppCppPrimerPlus_001_If App/TAppCppPrimerPlus/001_If/main.cpp)
 add_executable(TAppCppPrimerPlus_001_If ${TAppCppPrimerPlus_001_If})
+
+set(TAppCppPrimerPlus_002_IfElse App/TAppCppPrimerPlus/002_IfElse/main.cpp)
+add_executable(TAppCppPrimerPlus_002_IfElse ${TAppCppPrimerPlus_002_IfElse})
